@@ -1,0 +1,156 @@
+.mindmap-view {
+  flex: 1;
+  position: relative;
+  background: var(--bg-base);
+}
+
+.mindmap-view .react-flow {
+  background: var(--bg-base);
+}
+
+.mindmap-toolbar {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: 100px;
+  padding: 7px 14px;
+}
+
+.mm-toolbar-label {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.mm-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 11.5px;
+  padding: 3px 8px;
+  border-radius: 100px;
+  text-transform: capitalize;
+}
+
+.mm-toggle.active {
+  color: var(--text-primary);
+  background: var(--bg-raised-2);
+}
+
+.mm-toggle-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--toggle-color);
+  opacity: 0.5;
+}
+
+.mm-toggle.active .mm-toggle-dot {
+  opacity: 1;
+}
+
+.mm-node {
+  position: relative;
+  width: 160px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.12s ease;
+}
+
+.mm-node:hover {
+  border-color: var(--accent-dim);
+}
+
+.mm-node-thumb {
+  aspect-ratio: 16/9;
+  background: var(--bg-base);
+}
+
+.mm-node-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mm-node-thumb-empty {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-overlay);
+}
+
+.mm-node-label {
+  font-size: 11px;
+  padding: 6px 8px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mm-node-tags {
+  display: flex;
+  gap: 4px;
+  padding: 0 8px 7px;
+}
+
+.mm-node-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.mindmap-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.mindmap-empty h2 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  margin: 12px 0 8px;
+}
+
+.mindmap-empty p {
+  max-width: 380px;
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+/* React Flow control/minimap dark theme overrides */
+.react-flow__controls {
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+}
+
+.react-flow__controls-button {
+  background: var(--bg-raised);
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text-secondary);
+}
+
+.react-flow__controls-button:hover {
+  background: var(--bg-raised-2);
+}
+
+.react-flow__attribution {
+  display: none;
+}

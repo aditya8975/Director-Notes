@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+storage/db/*.sqlite3
+storage/thumbnails/*.jpg
+venv/
+.venv/
