@@ -11,6 +11,16 @@ only when you use the Ask feature (sent to Groq's API to generate an answer).
 
 ---
 
+![Project Logo](images/logo.png)
+---
+![Project Logo](images/logo.png)
+---
+![Project Logo](images/logo.png)
+---
+![Project Logo](images/logo.png)
+---
+![Project Logo](images/logo.png)
+---
 ## What's actually built (v1 / Phase 1–5 spine)
 
 - **Import** a folder of clips by path — files stay where they are, nothing
