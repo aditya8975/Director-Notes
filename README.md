@@ -11,15 +11,15 @@ only when you use the Ask feature (sent to Groq's API to generate an answer).
 
 ---
 
-![Project Logo](images/logo.png)
+![Project Home](images/homed.png)
 ---
-![Project Logo](images/logo.png)
+![Project Map](images/mapd.png)
 ---
-![Project Logo](images/logo.png)
+![Project Transcrib](images/transcribed.png)
 ---
-![Project Logo](images/logo.png)
+![Project AI](images/aid.png)
 ---
-![Project Logo](images/logo.png)
+![Project AI DEMO](images/ai.png)
 ---
 ## What's actually built (v1 / Phase 1–5 spine)
 
